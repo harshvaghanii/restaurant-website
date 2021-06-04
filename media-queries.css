@@ -1,0 +1,52 @@
+@media screen and (max-width: 600px) {
+    .navigation-bar {
+        display: none;
+    }
+    .welcome-message {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+    .cuisine-header {
+        font-size: 3rem;
+    }
+    .cuisine-image {
+        width: 353px;
+        margin-top: 30px;
+    }
+    footer {
+        height: 100%;
+        /* background: black; */
+        justify-content: stretch;
+    }
+    .address {
+        /* border: 2px solid red; */
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    #support {
+        /* border: 2px solid yellow; */
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    #socials {
+        /* border: 2px solid green; */
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    #logos-social-media {
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 18px;
+    }
+    #address-header,
+    #support-header,
+    #social-header {
+        font-size: 16px;
+    }
+}
