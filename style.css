@@ -30,6 +30,8 @@ body {
 .logo a {
     color: whitesmoke;
     text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.5s;
 }
 
 .logo a:hover {
@@ -60,6 +62,8 @@ body {
 .nav-items ul a {
     color: whitesmoke;
     text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.6s;
 }
 
 .nav-items ul a:hover {
@@ -81,6 +85,10 @@ body {
 
 .welcome-message h1 {
     text-shadow: 0px 0px 15px black;
+    /* transition: all 2s linear 0s; */
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
 }
 
 .welcome-message h1:hover {
@@ -134,11 +142,14 @@ body {
     margin-top: 3%;
     border-radius: 30px;
     width: 453px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
 }
 
 .cuisine-image:hover {
     cursor: pointer;
-    transform: scale(1.01);
+    transform: scale(1.08);
     box-shadow: 0px 0px 5px black;
 }
 
