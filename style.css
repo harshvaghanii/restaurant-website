@@ -96,7 +96,7 @@ body {
 
 .welcome-message::before {
     content: '';
-    background-image: url("/Food Website/Images/cover-art.jpg");
+    background-image: url("Images/cover-art.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
