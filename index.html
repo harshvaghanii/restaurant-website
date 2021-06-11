@@ -10,19 +10,26 @@
     <link rel="stylesheet" href="media-queries.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <script src="app.js"></script>
+
 </head>
 
-<body>
+<body onscroll="hideMenu()">
     <header class="page-header">
         <nav class="navigation-bar">
+            <div class="hamburger" onclick="hamMenu()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
             <div class="logo">
                 <img src="Images/main-logo.jpeg" alt="Company Logo" id="logo-img">
                 <a href="#">
                     <h2>Vaghani's Kitchen</h2>
                 </a>
             </div>
-            <div class="nav-items">
-                <ul>
+            <div class="nav-items" id="myLinks">
+                <ul id="nav-link-ul" class="open">
                     <li><a href="#cuisines">Cuisines</a></li>
                     <li><a href="#locations">Locations</a></li>
                     <li><a href="form.html" target="_blank">Sign Up</a></li>
@@ -132,8 +139,9 @@
             </div>
         </section>
     </footer>
-
+    <script src="https://kit.fontawesome.com/260d458d63.js" crossorigin="anonymous">
+    </script>
 </body>
-<script src="https://kit.fontawesome.com/260d458d63.js" crossorigin="anonymous"></script>
+
 
 </html>

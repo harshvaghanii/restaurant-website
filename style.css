@@ -11,6 +11,10 @@ body {
     color: #ffac47;
 }
 
+.hamburger {
+    display: none;
+}
+
 .navigation-bar {
     height: 14vh;
     background-color: #ffac47;
