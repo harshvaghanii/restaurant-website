@@ -5,7 +5,8 @@
             position: relative;
         }
         .logo {
-            width: 90%;
+            /* border: 2px solid black; */
+            width: 100%;
             margin: auto;
         }
         .logo a {
