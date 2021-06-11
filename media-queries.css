@@ -37,12 +37,12 @@
             font-size: 1em;
             flex-direction: column;
             background-color: #ffac47;
-            height: 100vh;
+            height: 80vh;
             z-index: 1;
-            clip-path: circle(100px at 95% -15%);
-            -webkit-clip-path: circle(100px at 95% -15%);
+            clip-path: circle(100px at 95% -20%);
+            -webkit-clip-path: circle(100px at 95% -20%);
             transition: all 0.4s ease-in-out;
-            transition-delay: 2s;
+            /* transition-delay: 2s; */
         }
         .welcome-message {
             flex-wrap: wrap;
