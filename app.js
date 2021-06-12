@@ -1,9 +1,9 @@
 let hamMenu = () => {
     let x = document.getElementById("nav-link-ul");
 
-    if (x.style.clipPath === "circle(900px at 95% -20%)") x.style.clipPath = "circle(100px at 95% -20%)";
+    if (x.style.clipPath === "circle(550px at 95% -20%)") x.style.clipPath = "circle(100px at 95% -20%)";
 
-    else x.style.clipPath = "circle(900px at 95% -20%)";
+    else x.style.clipPath = "circle(550px at 95% -20%)";
 }
 
 
