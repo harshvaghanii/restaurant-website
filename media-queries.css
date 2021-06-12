@@ -37,7 +37,7 @@
         right: 5%;
         top: 50%;
         transform: translate(-5%, -50%);
-        z-index: 10;
+        z-index: 2;
     }
     .nav-items {
         /* display: flex; */
